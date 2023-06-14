@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Verificador de maioridade</title>
+</head>
+<body>
+    <p><h2 style="text-align: center; background: rgb(0, 255, 0); padding: 4px; color: #fff; border-radius: 3px;">
+        se você for maior de idade o verificador ira imprimir Green Checker </h2></p>
+        
+    <p><h2  style="text-align: center; background-color: red; color: #fff; padding: 10px; border-radius: 3px;">
+        se não for maior de idade, o verificador ira imprimir, Red Checker</h2></p>
+    
+    <form action="form">
+       <div class="img">
+         
+        <div>
+            <label for="name" class="label-name" aria-required="true">Name</label>
+            <br>
+            <input type="text" class="name" id="name">
+        </div>
+    <br>
+        <div>
+            <label for="idade" class="label-age">Age</label>
+            <br>
+            <input type="number" class="age" id="age">
+        </div>
+
+        <div>
+            <button class="button">Click</button>
+        </div>
+    
+       </div>
+        <div class="p-acept">
+            <p class="acept-checker">Green Checker</p>
+        </div>
+        <div>
+            <p class="block-checker">Red-Checker</p>
+        </div>
+    </form>
+
+    <script src="script/script.js"></script>
+    
+</body>
+</html>
